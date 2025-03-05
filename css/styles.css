@@ -16,7 +16,7 @@
     --link-color: #4b95f6;
     --border-color-pic: #d5d5d5;
     --icon-color: #222831;
-    --icon-hover-color: #222831;
+    --icon-hover-color: #0795f6;
 }
 
 /* Definição do Modo Escuro */
@@ -29,7 +29,7 @@
         --link-color: #0795f6;
         --border-color-pic: #EEEEEE;
         --icon-color: #EEEEEE;
-        --icon-hover-color: #EEEEEE;
+        --icon-hover-color: #0795f6;
     }
 }
 

@@ -157,8 +157,9 @@ hr {
     }
 
     .profile-container {
-        width: 90%;
-        order: -1; /* Coloca o perfil no topo */
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
     }
 
     .container {

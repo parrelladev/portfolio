@@ -32,7 +32,6 @@ a:active {
     color: #EEEEEE;
 }
 
-
 /* Configuração de Layout Principal */
 .page-container {
     display: flex;
@@ -169,7 +168,7 @@ hr {
 
     hr {
         max-width: 100%;
-        height: 1px; /* Linha um pouco mais fina no mobile */
+        height: 1px;
     }
 }
 

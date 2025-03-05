@@ -11,7 +11,7 @@
 :root {
     --bg-color: #EEEEEE;
     --text-color: #222831;
-    --border-color: #393E46;
+    --border-color: #d5d5d5;
     --container-bg: white;
     --highlight-color: #007F8B;
 }
@@ -19,10 +19,10 @@
 /* Definição do Modo Escuro */
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #222831;
+        --bg-color: #0a0a0a;
         --text-color: #EEEEEE;
-        --border-color: #EEEEEE;
-        --container-bg: #393E46;
+        --border-color: #2d2d2d;
+        --container-bg: #181818;
         --highlight-color: #00ADB5;
     }
 }

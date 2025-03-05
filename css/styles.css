@@ -13,7 +13,7 @@
     --text-color: #222831;
     --border-color: #d5d5d5;
     --container-bg: white;
-    --highlight-color: #007F8B;
+    --link-color: #007F8B;
 }
 
 /* Definição do Modo Escuro */
@@ -23,7 +23,7 @@
         --text-color: #EEEEEE;
         --border-color: #2d2d2d;
         --container-bg: #181818;
-        --highlight-color: #00ADB5;
+        --link-color: #00ADB5;
     }
 }
 
@@ -36,22 +36,22 @@ body {
 }
 
 a {
-    color: var(--text-color);
+    color: var(--link-color);
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: var(--highlight-color);
+    color: var(--link-color);
     text-decoration: none; 
 }
 
 a:visited {
-    color: var(--border-color);
+    color: var(--link-color);
 }
 
 a:active {
-    color: var(--bg-color);
+    color: var(--link-color);
 }
 
 /* Layout Principal */

@@ -149,7 +149,7 @@ hr {
 }
 
 /* Ajustes de Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .page-container {
         flex-direction: column;
         align-items: center;

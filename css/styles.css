@@ -13,7 +13,10 @@
     --text-color: #222831;
     --border-color: #d5d5d5;
     --container-bg: white;
-    --link-color: #007F8B;
+    --link-color: #4b95f6;
+    --border-color-pic: #d5d5d5;
+    --icon-color: #222831;
+    --icon-hover-color: #222831;
 }
 
 /* Definição do Modo Escuro */
@@ -22,8 +25,11 @@
         --bg-color: #0a0a0a;
         --text-color: #EEEEEE;
         --border-color: #2d2d2d;
-        --container-bg: #181818;
-        --link-color: #00ADB5;
+        --container-bg: #1e1e1e;
+        --link-color: #0795f6;
+        --border-color-pic: #EEEEEE;
+        --icon-color: #EEEEEE;
+        --icon-hover-color: #EEEEEE;
     }
 }
 
@@ -102,14 +108,15 @@ a:active {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
-    border: 2px solid var(--border-color);
+    border: 2px solid var(--border-color-pic);
 }
 
 .social-links {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .social-links a {
@@ -126,6 +133,19 @@ a:active {
 .social-links a:hover {
     transform: scale(1.2);
 }
+
+.social-icon svg {
+    width: 100%;
+    height: 100%;
+    stroke: var(--icon-color); /* Cor do ícone baseada no tema */
+    transition: stroke 0.3s;
+}
+
+.social-icon:hover svg {
+    stroke: var(--icon-hover-color); /* Cor ao passar o mouse baseada no tema */
+    transform: scale(1.2);
+}
+
 
 /* Estilização do Feed */
 .container {

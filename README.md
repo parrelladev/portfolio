@@ -15,25 +15,7 @@ Este é o repositório do meu portfólio online, onde apresento meus projetos, h
 
 ## 📁 Estrutura do Projeto  
 
-/portfolio  
-│── index.html           # Página principal  
-│  
-├── assets/              # Pasta para arquivos estáticos  
-│   ├── css/             # Estilos  
-│   │   └── styles.css   # Arquivo de estilos (CSS)  
-│   ├── js/              # Scripts  
-│   │   └── script.js    # Arquivo de funcionalidades (JS)  
-│   └── img/             # Imagens e ícones  
-│  
-├── components/          # Componentes reutilizáveis da página  
-│   ├── profile.html     # Arquivo separado com o perfil  
-│   └── posts.html       # Arquivo separado com os projetos  
-│
-├── pages/               # Páginas  
-│   ├── x.html           #
-│   └── x.html           #
-│  
-└── README.md            # Documentação do projeto  
+/portfolio │── index.html # Página principal │── styles.css # Arquivo de estilos (CSS) │── script.js # Arquivo de funcionalidades (JS) │── posts.html # Arquivo separado com os projetos │── profile.html # Arquivo separado com o perfil │── assets/ # Pasta com imagens e ícones └── README.md # Documentação do projeto
 
 ---
 

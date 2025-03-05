@@ -9,6 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Carregar os componentes
-    loadComponent("components/profile.html", "profile-container");
-    loadComponent("components/posts.html", "feed");
+    loadComponent("pages/profile.html", "profile-container");
+    loadComponent("pages/posts.html", "feed");
 });

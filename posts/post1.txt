@@ -1,0 +1,3 @@
+img/post1.jpg
+Título do Post 1
+pages/post1.html

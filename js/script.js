@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("pages/posts.html")
+    fetch("timeline/posts.html")
         .then(response => response.text())
         .then(data => {
             document.getElementById("feed").innerHTML = data;

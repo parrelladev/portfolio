@@ -7,32 +7,54 @@
     font-family: Arial, sans-serif;
 }
 
+/* Definição de Variáveis (Modo Claro - Padrão) */
+:root {
+    --bg-color: #EEEEEE;
+    --text-color: #222831;
+    --border-color: #393E46;
+    --container-bg: white;
+    --highlight-color: #007F8B;
+}
+
+/* Definição do Modo Escuro */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #222831;
+        --text-color: #EEEEEE;
+        --border-color: #EEEEEE;
+        --container-bg: #393E46;
+        --highlight-color: #00ADB5;
+    }
+}
+
 body {
     display: block;
     justify-content: center;
-    background-color: #EEEEEE;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 a {
-    color: #222831;
+    color: var(--text-color);
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #007F8B;
-    text-decoration:none; 
+    color: var(--highlight-color);
+    text-decoration: none; 
 }
 
 a:visited {
-    color: #393E46;
+    color: var(--border-color);
 }
 
 a:active {
-    color: #EEEEEE;
+    color: var(--bg-color);
 }
 
-/* Configuração de Layout Principal */
+/* Layout Principal */
 .page-container {
     display: flex;
     flex-wrap: wrap;
@@ -44,29 +66,24 @@ a:active {
     max-width: 1200px;
 }
 
-/* Configuração de Largura */
-:root {
-    --profile-width: 300px;
-    --feed-max-width: 600px;
-}
-
 /* Estilização do Container de Perfil */
 .profile-container {
     position: sticky;
     top: 20px;
-    width: var(--profile-width);
-    background: white;
+    width: 300px;
+    background: var(--container-bg);
     padding: 15px;
     border-radius: 32px;
     text-align: center;
-    border: 1px solid #393E46;
+    border: 1px solid var(--border-color);
     flex-shrink: 0;
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
 .profile-container h2 {
     margin-top: 5px;
     margin-bottom: 5px;
-    color: #222831;
+    color: var(--text-color);
 }
 
 .profile-container p {
@@ -76,7 +93,7 @@ a:active {
 }
 
 .profile-container b {
-    color: black;
+    color: var(--text-color);
 }
 
 .profile-pic {
@@ -85,7 +102,7 @@ a:active {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
-    border: 2px solid #393E46;
+    border: 2px solid var(--border-color);
 }
 
 .social-links {
@@ -103,7 +120,7 @@ a:active {
 .social-links img {
     width: 32px;
     height: 32px;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .social-links a:hover {
@@ -116,15 +133,16 @@ a:active {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: white;
+    background-color: var(--container-bg);
     border-radius: 32px;
-    border: 1px solid #393E46;
-    max-width: var(--feed-max-width);
-    flex-grow: 1; 
+    border: 1px solid var(--border-color);
+    max-width: 600px;
+    flex-grow: 1;
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
 .post {
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px;
     text-align: center;
 }
 
@@ -144,11 +162,11 @@ hr {
     width: 100%;
     border: none;
     height: 1px;
-    background: #393E46;
+    background: var(--border-color);
     margin: 5px auto;
 }
 
-/* Ajustes de Responsividade */
+/* Responsividade */
 @media (max-width: 1024px) {
     .page-container {
         flex-direction: column;

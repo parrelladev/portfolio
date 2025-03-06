@@ -224,10 +224,6 @@ hr {
     line-height: 1.6;
 }
 
-#project-embed {
-    margin-top: 20px;
-}
-
 .back-button {
     display: inline-block;
     margin: 0px 20px 0px 20px;
@@ -240,7 +236,7 @@ hr {
 }
 
 .back-button:hover {
-    background: var(--icon-hover-color);
+    background: var(--link-text);
 }
 
 /* Estilização do Rodapé */

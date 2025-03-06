@@ -190,18 +190,21 @@ hr {
     margin: 5px auto;
 }
 
-/* Estilos para a página do projeto */
+/* Estilos para as páginas dos projetos */
 .project-container {
     max-width: 800px;
     background: var(--container-bg);
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    text-align: left;
+    padding: 20px;
 }
 
 .project-content {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: left;
+    padding: 20px;
 }
 
 .project-content img {

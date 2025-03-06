@@ -236,7 +236,7 @@ hr {
 }
 
 .back-button:hover {
-    background: var(--link-color);
+    background: #3366a9;
     color: white;
 }
 

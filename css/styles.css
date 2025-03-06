@@ -192,7 +192,7 @@ hr {
 
 /* Estilos para as páginas dos projetos */
 .project-container {
-    max-width: 800px;
+    width: 100%; /* Ocupa todo o espaço do feed */
     background: var(--container-bg);
     padding: 20px;
 }
@@ -205,11 +205,11 @@ hr {
 .project-content {
     text-align: left;
     padding: 20px;
+    width: 100%;
 }
 
 .project-content img {
     width: 100%;
-    max-width: 600px;
     border-radius: 8px;
     margin-bottom: 15px;
 }

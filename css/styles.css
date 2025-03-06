@@ -200,7 +200,7 @@ hr {
     padding: 20px;
 }
 
-.project-title h2 {
+#project-title {
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;

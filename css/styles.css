@@ -194,6 +194,18 @@ hr {
     margin: 5px auto;
 }
 
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    margin: 10px 0px 10px 0px;
+}
+
 /* Estilos para as páginas dos projetos */
 .project-container {
     width: 100%;
@@ -242,20 +254,21 @@ hr {
 }
 
 ul {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 20px;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
 }
 
 li {
-  display: flex;
-  align-items: flex-start; /* ou center, conforme desejado */
+    display: flex;
+    align-items: flex-start;
+    /* ou center, conforme desejado */
 }
 
 li::before {
-  content: "•";
-  margin-right: 0.5em;
-  line-height: 1.5;
+    content: "•";
+    margin-right: 0.5em;
+    line-height: 1.5;
 }
 
 

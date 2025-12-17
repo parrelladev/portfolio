@@ -175,7 +175,7 @@ a:active {
 }
 
 .post p {
-    margin-top: 20px;
+    margin-top: 20px 0;
 }
 
 .post img {

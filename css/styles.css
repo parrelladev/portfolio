@@ -48,7 +48,7 @@ body {
 }
 
 a {
-    color: var(--bg-color);
+    color: #0a0a0a;
     text-decoration: none;
     font-weight: bold;
 }
@@ -191,7 +191,6 @@ hr {
     border: none;
     height: 1px;
     background: var(--border-color);
-    margin: 5px auto;
 }
 
 h3 {

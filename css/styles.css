@@ -170,7 +170,7 @@ a:active {
 }
 
 .post {
-    margin: 10px 30px;
+    margin: 20px 30px;
     text-align: center;
 }
 
@@ -203,7 +203,6 @@ h3 {
     margin-inline-end: 0px;
     font-weight: bold;
     unicode-bidi: isolate;
-    margin: 10px 0px 15px 0px;
 }
 
 /* Estilos para as páginas dos projetos */

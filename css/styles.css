@@ -222,6 +222,7 @@ hr {
 .project-content p {
     font-size: 16px;
     line-height: 1.6;
+    margin-bottom: 23px;
 }
 
 .back-button {

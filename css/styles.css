@@ -241,6 +241,23 @@ hr {
     color: white;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  align-items: flex-start; /* ou center, conforme desejado */
+}
+
+li::before {
+  content: "•";
+  margin-right: 0.5em;
+  line-height: 1.5;
+}
+
+
 /* Estilização do Rodapé */
 footer {
     background-color: var(--footer-bg);
